@@ -1,0 +1,82 @@
+      <form className="form_container">
+        {/* <div className="hire_icons">HIRE ICON</div> */}
+        <h3>Hire Me</h3>
+        <div className="input_container">
+          <input
+            type="text"
+            placeholder="First name"
+            name="firstname"
+            value={user.firstName}
+          />
+        </div>
+        <div cl
+        assName="input_container">
+          <input
+            type="text"
+            placeholder="Last name"
+            name="lastname"
+            value={user.lastName}
+          />
+        </div>
+        <div className="input_container">
+          <input
+            type="text"
+            placeholder="Username"
+            name="username"
+            value={user.userName}
+          />
+        </div>
+        <div className="input_container">
+          <input
+            type="text"
+            placeholder="Phone number"
+            name="username"
+            value={user.phoneNumber}
+          />
+        </div>
+        <div className="input_container">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            name="email"
+            value={user.email}
+          />
+        </div>
+        <div className="input_container">
+          <input
+            type="password"
+            placeholder="password"
+            name="password"
+            value={user.password}
+          />
+          </div>
+        <div className="input_container">
+          <input
+            type="password"
+            placeholder="confirm password"
+            name="confirm password"
+            value={user.confirmpassword}
+          />
+        </div>
+        <div className="input_container">
+        <p>Choose Your location</p>
+      <select name='location'>
+        <option value="Lagos" disabled> ----Choose stack---- </option>
+        <option value="Abuja">Abuja</option>
+        <option value="Kaduna">Kaduna</option>
+        <option value="Enugu">Enugu</option>
+        <option value="Anambra">Anambra</option>
+      </select>
+        </div>
+        <div className="input_container">
+        <p>Choose Your location</p>
+      <select name='location' className="location">
+        <option value="select country" disabled> ----Select Country---- </option>
+        <option value="Nigeria">Nigeria</option>
+        <option value="Ghana">Ghana</option>
+        <option value="Togo">Togo</option>
+        <option value="Canada">Canada</option>
+      </select>
+        </div>
+        <button className="submit_btn">Submit</button>
+      </form>

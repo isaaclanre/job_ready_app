@@ -1,0 +1,29 @@
+
+.app{
+    text-align: center;
+}
+.answer-section{
+
+     justify-content: center;
+      
+}
+
+.next{
+    width: 80%;
+    font-size: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #555e7d
+}
+
+.previous{
+    width: 20%;
+    background-color: rgb(139, 86, 86);
+}
+
+.question-count{
+    color: rgb(88, 134, 118);
+}
